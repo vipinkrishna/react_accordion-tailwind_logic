@@ -1,6 +1,7 @@
 {
-  "name": "react-accordion-tailwind",
+  "name": "react-accordion",
   "version": "0.0.0",
+  "description": "React Accordion Component",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
