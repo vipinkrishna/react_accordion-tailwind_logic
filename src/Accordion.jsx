@@ -3,8 +3,8 @@ import { useState } from "react";
 const Accordion = ({ data }) => {
     return (
         <div className="accordion p-5">
-            {data.map(({ header, body }) => (
-                <AccordionItem header={header} body={body} />
+            {data.map(({ header, body }, key) => (
+                <AccordionItem header={header} body={body} key={key} />
             ))}
         </div>
     )
